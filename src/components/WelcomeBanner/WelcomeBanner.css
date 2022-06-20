@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Gentium+Plus&family=Libre+Franklin&family=Nanum+Gothic&display=swap');
+
+header, h1 {
+    font-family: 'Gentium+Plus', 'Arimo', sans-serif;
+}

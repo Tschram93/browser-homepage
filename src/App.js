@@ -1,9 +1,11 @@
+import Clock from './components/Clock/Clock';
+import WelcomeBanner from './components/WelcomeBanner/WelcomeBanner';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Home Page</h1>
+      <WelcomeBanner name={'NAME HERE'} />
     </div>
   );
 };

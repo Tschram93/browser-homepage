@@ -1,3 +1,5 @@
+import './Clock.css';
+
 const Clock = () => {
     return (
         <div>
