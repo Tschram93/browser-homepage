@@ -1,9 +1,15 @@
+import { useRef } from "react";
 import './Clock.css';
 
 const Clock = () => {
+    const currentTime = useRef(); 
+    let d = new Date();
+    const getTime = d.toLocaleTimeString();
+// getTime=currentTime.innerText; 
+    
     return (
         <div>
-            <h2 id='current-time'>12:00:00</h2>
+            <h2 ref={currentTime} id='current-time'>{currentTime.innerText=getTime}</h2>
         </div>
     )
 };
