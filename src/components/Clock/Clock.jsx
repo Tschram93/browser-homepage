@@ -3,7 +3,7 @@ import './Clock.css';
 const Clock = () => {
     return (
         <div>
-            Clock
+            <h2 id='current-time'>12:00:00</h2>
         </div>
     )
 };

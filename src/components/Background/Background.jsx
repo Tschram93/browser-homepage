@@ -10,6 +10,7 @@ const Background = (props) => {
             <img src={imageOne}/>
                 {/* Use logic within brackets on the img source */}
             {/* Will implement a loop with setInterval to switch between images like a screensaver carousel*/ }
+            <Clock />
 
         </section>
     )
