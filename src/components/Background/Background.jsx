@@ -1,13 +1,16 @@
 import Clock from '../Clock/Clock';
-import Images from '../../assets/images/';
+import imageOne from '../../assets/images/imageOne.jpg';
 import './Background.css';
 
 const Background = (props) => {
     return (
         <section className='container'>
-            Background
+
             {/* Enter images below for the background */}
-            {/* <img src={'../../assets/images/'} alt="" /> */}
+            <img src={imageOne}/>
+                {/* Use logic within brackets on the img source */}
+            {/* Will implement a loop with setInterval to switch between images like a screensaver carousel*/ }
+
         </section>
     )
 };

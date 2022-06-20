@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <WelcomeBanner name={'NAME HERE'} />
+      <Background />
     </div>
   );
 };
