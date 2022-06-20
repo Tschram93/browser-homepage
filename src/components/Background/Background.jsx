@@ -1,10 +1,13 @@
 import Clock from '../Clock/Clock';
+import Images from '../../assets/images/';
 import './Background.css';
 
-const Background = () => {
+const Background = (props) => {
     return (
-        <section>
+        <section className='container'>
             Background
+            {/* Enter images below for the background */}
+            {/* <img src={'../../assets/images/'} alt="" /> */}
         </section>
     )
 };

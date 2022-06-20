@@ -1,4 +1,4 @@
-import Clock from './components/Clock/Clock';
+import Background from './components/Background/Background';
 import WelcomeBanner from './components/WelcomeBanner/WelcomeBanner';
 import './App.css';
 
