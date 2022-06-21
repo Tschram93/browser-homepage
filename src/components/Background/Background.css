@@ -1,3 +1,7 @@
+section {
+    border-bottom: 3px solid #000;
+}
+
 .container{
     align-items: center;
     background: #6A7865;
