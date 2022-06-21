@@ -5,8 +5,6 @@ const Clock = () => {
 	const currentTime = useRef();
 	const [clockState, setClockState] = useState();
 
-	// (currentTime.innerText = getTime)
-
 	useEffect(() => {
 		setInterval(() => {
 			const date = new Date();
@@ -15,7 +13,7 @@ const Clock = () => {
 			setClockState(getTime);
 		}, 1000);
 	}, []);
-// Test
+
 	return (
 		<div>
 			<h2 ref={currentTime} id='current-time'>

@@ -1,4 +1,5 @@
 import Background from './components/Background/Background';
+import Footer from './components/Footer/Footer';
 import WelcomeBanner from './components/WelcomeBanner/WelcomeBanner';
 import './App.css';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <WelcomeBanner name={'NAME HERE'} />
       <Background />
+      <Footer />
     </div>
   );
 };
