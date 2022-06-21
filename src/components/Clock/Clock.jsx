@@ -1,17 +1,28 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from 'react';
 import './Clock.css';
 
 const Clock = () => {
-    const currentTime = useRef(); 
-    let d = new Date();
-    const getTime = d.toLocaleTimeString();
-// getTime=currentTime.innerText; 
-    
-    return (
-        <div>
-            <h2 ref={currentTime} id='current-time'>{currentTime.innerText=getTime}</h2>
-        </div>
-    )
+	const currentTime = useRef();
+	const [clockState, setClockState] = useState();
+
+	// (currentTime.innerText = getTime)
+
+	useEffect(() => {
+		setInterval(() => {
+			const date = new Date();
+			const getTime = date.toLocaleTimeString();
+
+			setClockState(getTime);
+		}, 1000);
+	}, []);
+// Test
+	return (
+		<div>
+			<h2 ref={currentTime} id='current-time'>
+				{clockState}
+			</h2>
+		</div>
+	);
 };
 
 export default Clock;
