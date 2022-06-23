@@ -1,9 +1,10 @@
-import FooterLinks from "./FooterLinks/FooterLinks";
+import LinkSection from "../LinkSection/LinkSection";
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <FooterLinks />
+            <h3>Quick Links</h3>
+            <LinkSection/>
         </footer>
     )
 }

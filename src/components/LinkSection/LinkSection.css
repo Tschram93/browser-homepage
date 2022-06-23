@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Gentium+Plus&family=Libre+Franklin&family=Nanum+Gothic&display=swap');
 
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 .category {
     list-style-type: none;
 }
